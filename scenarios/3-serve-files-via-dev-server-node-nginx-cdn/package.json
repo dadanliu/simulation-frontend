@@ -1,0 +1,13 @@
+{
+  "name": "3-serve-files-via-dev-server-node-nginx-cdn",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "mini": "node delivery-modes-report.js demo-dist",
+    "serve:dev": "node delivery-preview-server.js dev demo-dist 4301",
+    "serve:node": "node delivery-preview-server.js node demo-dist 4302",
+    "serve:nginx": "node delivery-preview-server.js nginx demo-dist 4303",
+    "serve:cdn": "node delivery-preview-server.js cdn demo-dist 4304"
+  },
+  "packageManager": "pnpm@10.23.0"
+}

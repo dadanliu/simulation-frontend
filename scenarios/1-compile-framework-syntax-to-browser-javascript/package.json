@@ -1,0 +1,15 @@
+{
+  "name": "1-compile-framework-syntax-to-browser-javascript",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "mini": "node mini-compiler.js demo-input",
+    "babel": "node babel-compiler.js demo-input"
+  },
+  "packageManager": "pnpm@10.23.0",
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-react": "^7.28.5",
+    "@babel/preset-typescript": "^7.28.5"
+  }
+}

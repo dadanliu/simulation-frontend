@@ -1,0 +1,21 @@
+{
+  "name": "2-process-css-images-and-font-assets",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "mini": "node mini-asset-pipeline.js demo-input",
+    "serve:mini": "node static-preview-server.js dist 4173",
+    "preview:mini": "pnpm mini && pnpm serve:mini",
+    "webpack:build": "webpack --config webpack.config.js",
+    "serve:webpack": "node static-preview-server.js webpack-dist 4174",
+    "preview:webpack": "pnpm webpack:build && pnpm serve:webpack"
+  },
+  "packageManager": "pnpm@10.23.0",
+  "devDependencies": {
+    "css-loader": "^7.1.4",
+    "html-webpack-plugin": "^5.6.6",
+    "mini-css-extract-plugin": "^2.10.2",
+    "webpack": "^5.106.1",
+    "webpack-cli": "^7.0.2"
+  }
+}

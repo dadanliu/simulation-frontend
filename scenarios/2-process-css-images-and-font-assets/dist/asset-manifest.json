@@ -1,0 +1,111 @@
+{
+  "purpose": "simulate how bundlers process css, images, and fonts before output",
+  "entry": "demo-input/styles/app.css",
+  "boundaries": {
+    "responsibleFor": [
+      "collecting css imports",
+      "resolving image and font references",
+      "rewriting emitted asset urls",
+      "emitting hashed css and asset files",
+      "emitting a tiny preview html for observing resource loading"
+    ],
+    "notResponsibleFor": [
+      "full application html generation",
+      "javascript chunk splitting",
+      "cdn deployment",
+      "browser parsing or rendering"
+    ]
+  },
+  "steps": [
+    "inline imported css",
+    "collect url() assets",
+    "organize files by asset type",
+    "rewrite asset urls to emitted files",
+    "minify css and emit hashed outputs"
+  ],
+  "pipeline": [
+    {
+      "stage": "read entry css",
+      "input": "demo-input/styles/app.css",
+      "output": "memory",
+      "detail": "start from the main stylesheet entry"
+    },
+    {
+      "stage": "inline css import",
+      "input": "demo-input/styles/app.css",
+      "output": "demo-input/styles/button.css",
+      "detail": "./button.css"
+    },
+    {
+      "stage": "emit asset file",
+      "input": "demo-input/images/logo.svg",
+      "output": "dist/images/logo.4086ef71.svg",
+      "detail": "image -> ../images/logo.4086ef71.svg"
+    },
+    {
+      "stage": "rewrite css url",
+      "input": "../images/logo.svg",
+      "output": "../images/logo.4086ef71.svg",
+      "detail": "dist/images/logo.4086ef71.svg"
+    },
+    {
+      "stage": "emit asset file",
+      "input": "demo-input/fonts/demo-sans.woff2",
+      "output": "dist/fonts/demo-sans.4b455708.woff2",
+      "detail": "font -> ../fonts/demo-sans.4b455708.woff2"
+    },
+    {
+      "stage": "rewrite css url",
+      "input": "../fonts/demo-sans.woff2",
+      "output": "../fonts/demo-sans.4b455708.woff2",
+      "detail": "dist/fonts/demo-sans.4b455708.woff2"
+    },
+    {
+      "stage": "emit bundled css",
+      "input": "demo-input/styles/app.css, demo-input/styles/button.css",
+      "output": "dist/css/app.14fa1370.css",
+      "detail": "minified css with rewritten asset urls"
+    },
+    {
+      "stage": "emit preview html",
+      "input": "dist/css/app.14fa1370.css",
+      "output": "dist/index.html",
+      "detail": "minimal html shell that references the emitted css output"
+    }
+  ],
+  "cssInputs": [
+    "demo-input/styles/app.css",
+    "demo-input/styles/button.css"
+  ],
+  "emittedFiles": {
+    "html": "dist/index.html",
+    "css": "dist/css/app.14fa1370.css",
+    "assets": [
+      {
+        "kind": "image",
+        "source": "demo-input/images/logo.svg",
+        "output": "dist/images/logo.4086ef71.svg",
+        "cssUrl": "../images/logo.4086ef71.svg",
+        "transforms": [
+          "svg whitespace cleanup",
+          "content hash rename"
+        ]
+      },
+      {
+        "kind": "font",
+        "source": "demo-input/fonts/demo-sans.woff2",
+        "output": "dist/fonts/demo-sans.4b455708.woff2",
+        "cssUrl": "../fonts/demo-sans.4b455708.woff2",
+        "transforms": [
+          "content hash rename"
+        ]
+      }
+    ]
+  },
+  "manifest": "dist/asset-manifest.json",
+  "notes": [
+    "这是教学级近似：只演示资源整理、轻量变换、改名和输出分桶。",
+    "demo-input/fonts/demo-sans.woff2 是占位文件，重点是观察“字体资源也会被识别、改名和输出”。",
+    "真实工程里通常还会有 source map、压缩策略、更多 loader/plugin、并行优化和缓存。"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "0-read-source-and-analyze-dependencies",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "mini": "node mini-bundler.js demo-src demo-src/src/main.js",
+    "webpack:build": "webpack --config webpack.config.js",
+    "webpack:stats": "webpack --config webpack.config.js --json > webpack-stats.json # 把完整 stats 写入 webpack-stats.json，便于对照 mini-bundler 的依赖图"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "webpack": "5.101.3",
+    "webpack-cli": "6.0.1"
+  },
+  "packageManager": "pnpm@10.23.0"
+}

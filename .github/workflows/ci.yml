@@ -14,13 +14,13 @@ jobs:
       matrix:
         project:
           - full-chain
-          - scenarios/stage0-rsc-basic
-          - scenarios/stage1-ssg-basic
-          - scenarios/stage2-build-artifacts
-          - scenarios/stage3-ssr-basic
-          - scenarios/stage4-hydration-basic
-          - scenarios/stage5-csr-basic
-          - scenarios/stage6-api-roundtrip
+          - scenarios/browser-receives-server-component-result
+          - scenarios/build-emits-static-html
+          - scenarios/build-emits-runtime-artifacts
+          - scenarios/request-generates-html-on-server
+          - scenarios/hydration-enables-interaction
+          - scenarios/client-state-drives-ui-update
+          - scenarios/fetch-roundtrip-updates-ui
     defaults:
       run:
         working-directory: ${{ matrix.project }}

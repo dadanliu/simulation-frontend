@@ -1,0 +1,16 @@
+@import "./button.css";
+
+body {
+  margin: 0;
+  font-family: "Demo Sans", sans-serif;
+  background: #f5f7fb url("../images/logo.svg") no-repeat right 24px top 24px;
+}
+
+@font-face {
+  font-family: "Demo Sans";
+  src: url("../fonts/demo-sans.woff2") format("woff2");
+}
+
+.page-shell {
+  padding: 24px;
+}

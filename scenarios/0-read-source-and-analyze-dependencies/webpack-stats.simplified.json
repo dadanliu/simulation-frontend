@@ -1,0 +1,415 @@
+{
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "bundle.js"
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "id": "main",
+      "names": [
+        "main"
+      ],
+      "files": [
+        "bundle.js"
+      ],
+      "entry": true,
+      "initial": true
+    }
+  ],
+  "modules": [
+    {
+      "name": "./demo-src/src/main.js",
+      "size": 369,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "reasons": [
+        {
+          "type": "entry",
+          "userRequest": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+          "moduleName": null,
+          "resolvedModule": null
+        }
+      ]
+    },
+    {
+      "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+      "size": 1373,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "./demo-src/src/main.js",
+      "reasons": [
+        {
+          "type": "harmony side effect evaluation",
+          "userRequest": "react-dom/client",
+          "moduleName": "./demo-src/src/main.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js"
+        },
+        {
+          "type": "harmony import specifier",
+          "userRequest": "react-dom/client",
+          "moduleName": "./demo-src/src/main.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js"
+        }
+      ]
+    },
+    {
+      "name": "./demo-src/src/App.js",
+      "size": 326,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "./demo-src/src/main.js",
+      "reasons": [
+        {
+          "type": "harmony side effect evaluation",
+          "userRequest": "./App.js",
+          "moduleName": "./demo-src/src/main.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js"
+        },
+        {
+          "type": "harmony import specifier",
+          "userRequest": "./App.js",
+          "moduleName": "./demo-src/src/main.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js"
+        }
+      ]
+    },
+    {
+      "name": "./demo-src/src/styles/global.css",
+      "size": 97,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "./demo-src/src/main.js",
+      "reasons": [
+        {
+          "type": "harmony side effect evaluation",
+          "userRequest": "./styles/global.css",
+          "moduleName": "./demo-src/src/main.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js"
+        }
+      ]
+    },
+    {
+      "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+      "size": 1065698,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+      "reasons": [
+        {
+          "type": "cjs export require",
+          "userRequest": "./cjs/react-dom-client.development.js",
+          "moduleName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js"
+        }
+      ]
+    },
+    {
+      "name": "./demo-src/src/components/Header.js",
+      "size": 190,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "./demo-src/src/App.js",
+      "reasons": [
+        {
+          "type": "harmony side effect evaluation",
+          "userRequest": "./components/Header.js",
+          "moduleName": "./demo-src/src/App.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js"
+        },
+        {
+          "type": "harmony import specifier",
+          "userRequest": "./components/Header.js",
+          "moduleName": "./demo-src/src/App.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js"
+        }
+      ]
+    },
+    {
+      "name": "./demo-src/src/components/Counter.js",
+      "size": 226,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "./demo-src/src/App.js",
+      "reasons": [
+        {
+          "type": "harmony side effect evaluation",
+          "userRequest": "./components/Counter.js",
+          "moduleName": "./demo-src/src/App.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js"
+        },
+        {
+          "type": "harmony import specifier",
+          "userRequest": "./components/Counter.js",
+          "moduleName": "./demo-src/src/App.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js"
+        }
+      ]
+    },
+    {
+      "name": "./demo-src/src/utils/format.js",
+      "size": 165,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "./demo-src/src/App.js",
+      "reasons": [
+        {
+          "type": "harmony side effect evaluation",
+          "userRequest": "./utils/format.js",
+          "moduleName": "./demo-src/src/App.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js"
+        },
+        {
+          "type": "harmony import specifier",
+          "userRequest": "./utils/format.js",
+          "moduleName": "./demo-src/src/App.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js"
+        }
+      ]
+    },
+    {
+      "name": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+      "size": 194,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+      "reasons": [
+        {
+          "type": "cjs require",
+          "userRequest": "scheduler",
+          "moduleName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js"
+        }
+      ]
+    },
+    {
+      "name": "./node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+      "size": 186,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+      "reasons": [
+        {
+          "type": "cjs require",
+          "userRequest": "react",
+          "moduleName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js"
+        },
+        {
+          "type": "cjs require",
+          "userRequest": "react",
+          "moduleName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom.development.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom.development.js"
+        }
+      ]
+    },
+    {
+      "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+      "size": 1359,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+      "reasons": [
+        {
+          "type": "cjs require",
+          "userRequest": "react-dom",
+          "moduleName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js"
+        }
+      ]
+    },
+    {
+      "name": "./demo-src/src/constants/content.js",
+      "size": 125,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "./demo-src/src/components/Header.js",
+      "reasons": [
+        {
+          "type": "harmony side effect evaluation",
+          "userRequest": "../constants/content.js",
+          "moduleName": "./demo-src/src/components/Header.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Header.js"
+        },
+        {
+          "type": "harmony import specifier",
+          "userRequest": "../constants/content.js",
+          "moduleName": "./demo-src/src/components/Header.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Header.js"
+        }
+      ]
+    },
+    {
+      "name": "./demo-src/src/styles/button.js",
+      "size": 141,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "./demo-src/src/components/Counter.js",
+      "reasons": [
+        {
+          "type": "harmony side effect evaluation",
+          "userRequest": "../styles/button.js",
+          "moduleName": "./demo-src/src/components/Counter.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Counter.js"
+        },
+        {
+          "type": "harmony import specifier",
+          "userRequest": "../styles/button.js",
+          "moduleName": "./demo-src/src/components/Counter.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Counter.js"
+        }
+      ]
+    },
+    {
+      "name": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+      "size": 12144,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+      "reasons": [
+        {
+          "type": "cjs self exports reference",
+          "userRequest": null,
+          "moduleName": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js"
+        },
+        {
+          "type": "cjs self exports reference",
+          "userRequest": null,
+          "moduleName": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js"
+        },
+        {
+          "type": "cjs self exports reference",
+          "userRequest": null,
+          "moduleName": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js"
+        },
+        {
+          "type": "cjs self exports reference",
+          "userRequest": null,
+          "moduleName": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js"
+        },
+        {
+          "type": "cjs self exports reference",
+          "userRequest": null,
+          "moduleName": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js"
+        },
+        {
+          "type": "cjs export require",
+          "userRequest": "./cjs/scheduler.development.js",
+          "moduleName": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js"
+        }
+      ]
+    },
+    {
+      "name": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+      "size": 47219,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "./node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+      "reasons": [
+        {
+          "type": "module decorator",
+          "userRequest": null,
+          "moduleName": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js"
+        },
+        {
+          "type": "module decorator",
+          "userRequest": null,
+          "moduleName": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js"
+        },
+        {
+          "type": "module decorator",
+          "userRequest": null,
+          "moduleName": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js"
+        },
+        {
+          "type": "cjs export require",
+          "userRequest": "./cjs/react.development.js",
+          "moduleName": "./node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/index.js"
+        }
+      ]
+    },
+    {
+      "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom.development.js",
+      "size": 17673,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+      "reasons": [
+        {
+          "type": "cjs export require",
+          "userRequest": "./cjs/react-dom.development.js",
+          "moduleName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+          "resolvedModule": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js"
+        }
+      ]
+    },
+    {
+      "name": "webpack/runtime/define property getters",
+      "size": 308,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "reasons": []
+    },
+    {
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "size": 88,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "reasons": []
+    },
+    {
+      "name": "webpack/runtime/make namespace object",
+      "size": 274,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "reasons": []
+    },
+    {
+      "name": "webpack/runtime/node module decorator",
+      "size": 123,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "reasons": []
+    }
+  ]
+}

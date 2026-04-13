@@ -1,0 +1,30 @@
+/*!************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@7.1.4_webpack@5.106.1/node_modules/css-loader/dist/cjs.js!./demo-input/styles/button.css ***!
+  \************************************************************************************************************************************/
+.primary-button {
+  border: 0;
+  border-radius: 999px;
+  padding: 12px 18px;
+  color: white;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  box-shadow: 0 12px 30px rgba(37, 99, 235, 0.25);
+}
+
+/*!*********************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@7.1.4_webpack@5.106.1/node_modules/css-loader/dist/cjs.js!./demo-input/styles/app.css ***!
+  \*********************************************************************************************************************************/
+body {
+  margin: 0;
+  font-family: "Demo Sans", sans-serif;
+  background: #f5f7fb url(../images/logo.d5ebcf2b.svg) no-repeat right 24px top 24px;
+}
+
+@font-face {
+  font-family: "Demo Sans";
+  src: url(../fonts/demo-sans.c889edc0.woff2) format("woff2");
+}
+
+.page-shell {
+  padding: 24px;
+}
+

@@ -1,0 +1,1668 @@
+{
+     "hash": "44e971d0ec477592b298",
+     "version": "5.101.3",
+     "time": 156,
+     "builtAt": 1775485598164,
+     "publicPath": "auto",
+     "outputPath": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/webpack-dist",
+     "assetsByChunkName": {
+          "main": [
+               "bundle.js"
+          ]
+     },
+     "assets": [
+          {
+               "type": "asset",
+               "name": "bundle.js",
+               "size": 1201730,
+               "emitted": false,
+               "comparedForEmit": true,
+               "cached": false,
+               "info": {
+                    "javascriptModule": false,
+                    "size": 1201730
+               },
+               "chunkNames": [
+                    "main"
+               ],
+               "chunkIdHints": [],
+               "auxiliaryChunkNames": [],
+               "auxiliaryChunkIdHints": [],
+               "related": [],
+               "chunks": [
+                    "main"
+               ],
+               "auxiliaryChunks": [],
+               "isOverSizeLimit": false
+          }
+     ],
+     "chunks": [
+          {
+               "rendered": true,
+               "initial": true,
+               "entry": true,
+               "recorded": false,
+               "size": 1148278,
+               "sizes": {
+                    "javascript": 1147485,
+                    "runtime": 793
+               },
+               "names": [
+                    "main"
+               ],
+               "idHints": [],
+               "runtime": [
+                    "main"
+               ],
+               "files": [
+                    "bundle.js"
+               ],
+               "auxiliaryFiles": [],
+               "hash": "fa229931eb08d056bb6d",
+               "childrenByOrder": {},
+               "id": "main",
+               "siblings": [],
+               "parents": [],
+               "children": [],
+               "origins": [
+                    {
+                         "module": "",
+                         "moduleIdentifier": "",
+                         "moduleName": "",
+                         "loc": "main",
+                         "request": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js"
+                    }
+               ]
+          }
+     ],
+     "modules": [
+          {
+               "type": "module",
+               "moduleType": "javascript/auto",
+               "layer": null,
+               "size": 369,
+               "sizes": {
+                    "javascript": 369
+               },
+               "built": true,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+               "name": "./demo-src/src/main.js",
+               "nameForCondition": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+               "index": 0,
+               "preOrderIndex": 0,
+               "index2": 15,
+               "postOrderIndex": 15,
+               "cacheable": true,
+               "optional": false,
+               "orphan": false,
+               "issuer": null,
+               "issuerName": null,
+               "issuerPath": null,
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "./demo-src/src/main.js",
+               "issuerId": null,
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [
+                    {
+                         "moduleIdentifier": null,
+                         "module": null,
+                         "moduleName": null,
+                         "resolvedModuleIdentifier": null,
+                         "resolvedModule": null,
+                         "type": "entry",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "loc": "main",
+                         "moduleId": null,
+                         "resolvedModuleId": null
+                    }
+               ],
+               "usedExports": null,
+               "providedExports": [],
+               "optimizationBailout": [],
+               "depth": 0
+          },
+          {
+               "type": "module",
+               "moduleType": "javascript/auto",
+               "layer": null,
+               "size": 1373,
+               "sizes": {
+                    "javascript": 1373
+               },
+               "built": true,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+               "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+               "nameForCondition": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+               "index": 1,
+               "preOrderIndex": 1,
+               "index2": 7,
+               "postOrderIndex": 7,
+               "cacheable": true,
+               "optional": false,
+               "orphan": false,
+               "issuer": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+               "issuerName": "./demo-src/src/main.js",
+               "issuerPath": [
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "name": "./demo-src/src/main.js",
+                         "id": "./demo-src/src/main.js"
+                    }
+               ],
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+               "issuerId": "./demo-src/src/main.js",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "module": "./demo-src/src/main.js",
+                         "moduleName": "./demo-src/src/main.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "resolvedModule": "./demo-src/src/main.js",
+                         "type": "harmony side effect evaluation",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "react-dom/client",
+                         "loc": "2:0-46",
+                         "moduleId": "./demo-src/src/main.js",
+                         "resolvedModuleId": "./demo-src/src/main.js"
+                    },
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "module": "./demo-src/src/main.js",
+                         "moduleName": "./demo-src/src/main.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "resolvedModule": "./demo-src/src/main.js",
+                         "type": "harmony import specifier",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "react-dom/client",
+                         "loc": "10:0-10",
+                         "moduleId": "./demo-src/src/main.js",
+                         "resolvedModuleId": "./demo-src/src/main.js"
+                    }
+               ],
+               "usedExports": null,
+               "providedExports": [
+                    "createRoot",
+                    "hydrateRoot",
+                    "version"
+               ],
+               "optimizationBailout": [],
+               "depth": 1
+          },
+          {
+               "type": "module",
+               "moduleType": "javascript/auto",
+               "layer": null,
+               "size": 326,
+               "sizes": {
+                    "javascript": 326
+               },
+               "built": true,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+               "name": "./demo-src/src/App.js",
+               "nameForCondition": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+               "index": 9,
+               "preOrderIndex": 9,
+               "index2": 13,
+               "postOrderIndex": 13,
+               "cacheable": true,
+               "optional": false,
+               "orphan": false,
+               "issuer": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+               "issuerName": "./demo-src/src/main.js",
+               "issuerPath": [
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "name": "./demo-src/src/main.js",
+                         "id": "./demo-src/src/main.js"
+                    }
+               ],
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "./demo-src/src/App.js",
+               "issuerId": "./demo-src/src/main.js",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "module": "./demo-src/src/main.js",
+                         "moduleName": "./demo-src/src/main.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "resolvedModule": "./demo-src/src/main.js",
+                         "type": "harmony side effect evaluation",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "./App.js",
+                         "loc": "5:0-31",
+                         "moduleId": "./demo-src/src/main.js",
+                         "resolvedModuleId": "./demo-src/src/main.js"
+                    },
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "module": "./demo-src/src/main.js",
+                         "moduleName": "./demo-src/src/main.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "resolvedModule": "./demo-src/src/main.js",
+                         "type": "harmony import specifier",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "./App.js",
+                         "loc": "10:51-54",
+                         "moduleId": "./demo-src/src/main.js",
+                         "resolvedModuleId": "./demo-src/src/main.js"
+                    }
+               ],
+               "usedExports": null,
+               "providedExports": [
+                    "App"
+               ],
+               "optimizationBailout": [],
+               "depth": 1
+          },
+          {
+               "type": "module",
+               "moduleType": "asset/source",
+               "layer": null,
+               "size": 97,
+               "sizes": {
+                    "javascript": 97
+               },
+               "built": true,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "asset/source|/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/styles/global.css",
+               "name": "./demo-src/src/styles/global.css",
+               "nameForCondition": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/styles/global.css",
+               "index": 15,
+               "preOrderIndex": 15,
+               "index2": 14,
+               "postOrderIndex": 14,
+               "cacheable": true,
+               "optional": false,
+               "orphan": false,
+               "issuer": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+               "issuerName": "./demo-src/src/main.js",
+               "issuerPath": [
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "name": "./demo-src/src/main.js",
+                         "id": "./demo-src/src/main.js"
+                    }
+               ],
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "./demo-src/src/styles/global.css",
+               "issuerId": "./demo-src/src/main.js",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "module": "./demo-src/src/main.js",
+                         "moduleName": "./demo-src/src/main.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "resolvedModule": "./demo-src/src/main.js",
+                         "type": "harmony side effect evaluation",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "./styles/global.css",
+                         "loc": "8:0-29",
+                         "moduleId": "./demo-src/src/main.js",
+                         "resolvedModuleId": "./demo-src/src/main.js"
+                    }
+               ],
+               "usedExports": null,
+               "providedExports": [],
+               "optimizationBailout": [],
+               "depth": 1
+          },
+          {
+               "type": "module",
+               "moduleType": "javascript/auto",
+               "layer": null,
+               "size": 1065698,
+               "sizes": {
+                    "javascript": 1065698
+               },
+               "built": true,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+               "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+               "nameForCondition": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+               "index": 2,
+               "preOrderIndex": 2,
+               "index2": 6,
+               "postOrderIndex": 6,
+               "cacheable": true,
+               "optional": false,
+               "orphan": false,
+               "issuer": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+               "issuerName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+               "issuerPath": [
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "name": "./demo-src/src/main.js",
+                         "id": "./demo-src/src/main.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js"
+                    }
+               ],
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+               "issuerId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "module": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "moduleName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "resolvedModule": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "type": "cjs export require",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "./cjs/react-dom-client.development.js",
+                         "loc": "37:2-67",
+                         "moduleId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "resolvedModuleId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js"
+                    }
+               ],
+               "usedExports": null,
+               "providedExports": [
+                    "createRoot",
+                    "hydrateRoot",
+                    "version"
+               ],
+               "optimizationBailout": [],
+               "depth": 2
+          },
+          {
+               "type": "module",
+               "moduleType": "javascript/auto",
+               "layer": null,
+               "size": 190,
+               "sizes": {
+                    "javascript": 190
+               },
+               "built": true,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Header.js",
+               "name": "./demo-src/src/components/Header.js",
+               "nameForCondition": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Header.js",
+               "index": 10,
+               "preOrderIndex": 10,
+               "index2": 9,
+               "postOrderIndex": 9,
+               "cacheable": true,
+               "optional": false,
+               "orphan": false,
+               "issuer": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+               "issuerName": "./demo-src/src/App.js",
+               "issuerPath": [
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "name": "./demo-src/src/main.js",
+                         "id": "./demo-src/src/main.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "name": "./demo-src/src/App.js",
+                         "id": "./demo-src/src/App.js"
+                    }
+               ],
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "./demo-src/src/components/Header.js",
+               "issuerId": "./demo-src/src/App.js",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "module": "./demo-src/src/App.js",
+                         "moduleName": "./demo-src/src/App.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "resolvedModule": "./demo-src/src/App.js",
+                         "type": "harmony side effect evaluation",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "./components/Header.js",
+                         "loc": "2:0-48",
+                         "moduleId": "./demo-src/src/App.js",
+                         "resolvedModuleId": "./demo-src/src/App.js"
+                    },
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "module": "./demo-src/src/App.js",
+                         "moduleName": "./demo-src/src/App.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "resolvedModule": "./demo-src/src/App.js",
+                         "type": "harmony import specifier",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "./components/Header.js",
+                         "loc": "9:15-21",
+                         "moduleId": "./demo-src/src/App.js",
+                         "resolvedModuleId": "./demo-src/src/App.js"
+                    }
+               ],
+               "usedExports": null,
+               "providedExports": [
+                    "Header"
+               ],
+               "optimizationBailout": [],
+               "depth": 2
+          },
+          {
+               "type": "module",
+               "moduleType": "javascript/auto",
+               "layer": null,
+               "size": 226,
+               "sizes": {
+                    "javascript": 226
+               },
+               "built": true,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Counter.js",
+               "name": "./demo-src/src/components/Counter.js",
+               "nameForCondition": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Counter.js",
+               "index": 12,
+               "preOrderIndex": 12,
+               "index2": 11,
+               "postOrderIndex": 11,
+               "cacheable": true,
+               "optional": false,
+               "orphan": false,
+               "issuer": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+               "issuerName": "./demo-src/src/App.js",
+               "issuerPath": [
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "name": "./demo-src/src/main.js",
+                         "id": "./demo-src/src/main.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "name": "./demo-src/src/App.js",
+                         "id": "./demo-src/src/App.js"
+                    }
+               ],
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "./demo-src/src/components/Counter.js",
+               "issuerId": "./demo-src/src/App.js",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "module": "./demo-src/src/App.js",
+                         "moduleName": "./demo-src/src/App.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "resolvedModule": "./demo-src/src/App.js",
+                         "type": "harmony side effect evaluation",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "./components/Counter.js",
+                         "loc": "3:0-50",
+                         "moduleId": "./demo-src/src/App.js",
+                         "resolvedModuleId": "./demo-src/src/App.js"
+                    },
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "module": "./demo-src/src/App.js",
+                         "moduleName": "./demo-src/src/App.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "resolvedModule": "./demo-src/src/App.js",
+                         "type": "harmony import specifier",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "./components/Counter.js",
+                         "loc": "9:25-32",
+                         "moduleId": "./demo-src/src/App.js",
+                         "resolvedModuleId": "./demo-src/src/App.js"
+                    }
+               ],
+               "usedExports": null,
+               "providedExports": [
+                    "Counter"
+               ],
+               "optimizationBailout": [],
+               "depth": 2
+          },
+          {
+               "type": "module",
+               "moduleType": "javascript/auto",
+               "layer": null,
+               "size": 165,
+               "sizes": {
+                    "javascript": 165
+               },
+               "built": true,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/utils/format.js",
+               "name": "./demo-src/src/utils/format.js",
+               "nameForCondition": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/utils/format.js",
+               "index": 14,
+               "preOrderIndex": 14,
+               "index2": 12,
+               "postOrderIndex": 12,
+               "cacheable": true,
+               "optional": false,
+               "orphan": false,
+               "issuer": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+               "issuerName": "./demo-src/src/App.js",
+               "issuerPath": [
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "name": "./demo-src/src/main.js",
+                         "id": "./demo-src/src/main.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "name": "./demo-src/src/App.js",
+                         "id": "./demo-src/src/App.js"
+                    }
+               ],
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "./demo-src/src/utils/format.js",
+               "issuerId": "./demo-src/src/App.js",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "module": "./demo-src/src/App.js",
+                         "moduleName": "./demo-src/src/App.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "resolvedModule": "./demo-src/src/App.js",
+                         "type": "harmony side effect evaluation",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "./utils/format.js",
+                         "loc": "4:0-48",
+                         "moduleId": "./demo-src/src/App.js",
+                         "resolvedModuleId": "./demo-src/src/App.js"
+                    },
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "module": "./demo-src/src/App.js",
+                         "moduleName": "./demo-src/src/App.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "resolvedModule": "./demo-src/src/App.js",
+                         "type": "harmony import specifier",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "./utils/format.js",
+                         "loc": "9:33-44",
+                         "moduleId": "./demo-src/src/App.js",
+                         "resolvedModuleId": "./demo-src/src/App.js"
+                    }
+               ],
+               "usedExports": null,
+               "providedExports": [
+                    "formatCount"
+               ],
+               "optimizationBailout": [],
+               "depth": 2
+          },
+          {
+               "type": "module",
+               "moduleType": "javascript/auto",
+               "layer": null,
+               "size": 194,
+               "sizes": {
+                    "javascript": 194
+               },
+               "built": true,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+               "name": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+               "nameForCondition": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+               "index": 3,
+               "preOrderIndex": 3,
+               "index2": 1,
+               "postOrderIndex": 1,
+               "cacheable": true,
+               "optional": false,
+               "orphan": false,
+               "issuer": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+               "issuerName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+               "issuerPath": [
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "name": "./demo-src/src/main.js",
+                         "id": "./demo-src/src/main.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js"
+                    }
+               ],
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+               "issuerId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "module": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "moduleName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "resolvedModule": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "type": "cjs require",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "scheduler",
+                         "loc": "24190:20-40",
+                         "moduleId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "resolvedModuleId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js"
+                    }
+               ],
+               "usedExports": null,
+               "providedExports": [
+                    "unstable_IdlePriority",
+                    "unstable_ImmediatePriority",
+                    "unstable_LowPriority",
+                    "unstable_NormalPriority",
+                    "unstable_Profiling",
+                    "unstable_UserBlockingPriority",
+                    "unstable_cancelCallback",
+                    "unstable_forceFrameRate",
+                    "unstable_getCurrentPriorityLevel",
+                    "unstable_next",
+                    "unstable_now",
+                    "unstable_requestPaint",
+                    "unstable_runWithPriority",
+                    "unstable_scheduleCallback",
+                    "unstable_shouldYield",
+                    "unstable_wrapCallback"
+               ],
+               "optimizationBailout": [],
+               "depth": 3
+          },
+          {
+               "type": "module",
+               "moduleType": "javascript/auto",
+               "layer": null,
+               "size": 186,
+               "sizes": {
+                    "javascript": 186
+               },
+               "built": true,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+               "name": "./node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+               "nameForCondition": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+               "index": 5,
+               "preOrderIndex": 5,
+               "index2": 3,
+               "postOrderIndex": 3,
+               "cacheable": true,
+               "optional": false,
+               "orphan": false,
+               "issuer": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+               "issuerName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+               "issuerPath": [
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "name": "./demo-src/src/main.js",
+                         "id": "./demo-src/src/main.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js"
+                    }
+               ],
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "./node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+               "issuerId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "module": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "moduleName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "resolvedModule": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "type": "cjs require",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "react",
+                         "loc": "24191:14-30",
+                         "moduleId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "resolvedModuleId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js"
+                    },
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom.development.js",
+                         "module": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom.development.js",
+                         "moduleName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom.development.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom.development.js",
+                         "resolvedModule": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom.development.js",
+                         "type": "cjs require",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "react",
+                         "loc": "84:16-32",
+                         "moduleId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom.development.js",
+                         "resolvedModuleId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom.development.js"
+                    }
+               ],
+               "usedExports": null,
+               "providedExports": null,
+               "optimizationBailout": [],
+               "depth": 3
+          },
+          {
+               "type": "module",
+               "moduleType": "javascript/auto",
+               "layer": null,
+               "size": 1359,
+               "sizes": {
+                    "javascript": 1359
+               },
+               "built": true,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+               "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+               "nameForCondition": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+               "index": 7,
+               "preOrderIndex": 7,
+               "index2": 5,
+               "postOrderIndex": 5,
+               "cacheable": true,
+               "optional": false,
+               "orphan": false,
+               "issuer": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+               "issuerName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+               "issuerPath": [
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "name": "./demo-src/src/main.js",
+                         "id": "./demo-src/src/main.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js"
+                    }
+               ],
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+               "issuerId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "module": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "moduleName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "resolvedModule": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "type": "cjs require",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "react-dom",
+                         "loc": "24192:17-37",
+                         "moduleId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "resolvedModuleId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js"
+                    }
+               ],
+               "usedExports": null,
+               "providedExports": [
+                    "__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE",
+                    "createPortal",
+                    "flushSync",
+                    "preconnect",
+                    "prefetchDNS",
+                    "preinit",
+                    "preinitModule",
+                    "preload",
+                    "preloadModule",
+                    "requestFormReset",
+                    "unstable_batchedUpdates",
+                    "useFormState",
+                    "useFormStatus",
+                    "version"
+               ],
+               "optimizationBailout": [],
+               "depth": 3
+          },
+          {
+               "type": "module",
+               "moduleType": "javascript/auto",
+               "layer": null,
+               "size": 125,
+               "sizes": {
+                    "javascript": 125
+               },
+               "built": true,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/constants/content.js",
+               "name": "./demo-src/src/constants/content.js",
+               "nameForCondition": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/constants/content.js",
+               "index": 11,
+               "preOrderIndex": 11,
+               "index2": 8,
+               "postOrderIndex": 8,
+               "cacheable": true,
+               "optional": false,
+               "orphan": false,
+               "issuer": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Header.js",
+               "issuerName": "./demo-src/src/components/Header.js",
+               "issuerPath": [
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "name": "./demo-src/src/main.js",
+                         "id": "./demo-src/src/main.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "name": "./demo-src/src/App.js",
+                         "id": "./demo-src/src/App.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Header.js",
+                         "name": "./demo-src/src/components/Header.js",
+                         "id": "./demo-src/src/components/Header.js"
+                    }
+               ],
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "./demo-src/src/constants/content.js",
+               "issuerId": "./demo-src/src/components/Header.js",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Header.js",
+                         "module": "./demo-src/src/components/Header.js",
+                         "moduleName": "./demo-src/src/components/Header.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Header.js",
+                         "resolvedModule": "./demo-src/src/components/Header.js",
+                         "type": "harmony side effect evaluation",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "../constants/content.js",
+                         "loc": "2:0-52",
+                         "moduleId": "./demo-src/src/components/Header.js",
+                         "resolvedModuleId": "./demo-src/src/components/Header.js"
+                    },
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Header.js",
+                         "module": "./demo-src/src/components/Header.js",
+                         "moduleName": "./demo-src/src/components/Header.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Header.js",
+                         "resolvedModule": "./demo-src/src/components/Header.js",
+                         "type": "harmony import specifier",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "../constants/content.js",
+                         "loc": "5:29-38",
+                         "moduleId": "./demo-src/src/components/Header.js",
+                         "resolvedModuleId": "./demo-src/src/components/Header.js"
+                    }
+               ],
+               "usedExports": null,
+               "providedExports": [
+                    "titleText"
+               ],
+               "optimizationBailout": [],
+               "depth": 3
+          },
+          {
+               "type": "module",
+               "moduleType": "javascript/auto",
+               "layer": null,
+               "size": 141,
+               "sizes": {
+                    "javascript": 141
+               },
+               "built": true,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/styles/button.js",
+               "name": "./demo-src/src/styles/button.js",
+               "nameForCondition": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/styles/button.js",
+               "index": 13,
+               "preOrderIndex": 13,
+               "index2": 10,
+               "postOrderIndex": 10,
+               "cacheable": true,
+               "optional": false,
+               "orphan": false,
+               "issuer": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Counter.js",
+               "issuerName": "./demo-src/src/components/Counter.js",
+               "issuerPath": [
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "name": "./demo-src/src/main.js",
+                         "id": "./demo-src/src/main.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/App.js",
+                         "name": "./demo-src/src/App.js",
+                         "id": "./demo-src/src/App.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Counter.js",
+                         "name": "./demo-src/src/components/Counter.js",
+                         "id": "./demo-src/src/components/Counter.js"
+                    }
+               ],
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "./demo-src/src/styles/button.js",
+               "issuerId": "./demo-src/src/components/Counter.js",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Counter.js",
+                         "module": "./demo-src/src/components/Counter.js",
+                         "moduleName": "./demo-src/src/components/Counter.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Counter.js",
+                         "resolvedModule": "./demo-src/src/components/Counter.js",
+                         "type": "harmony side effect evaluation",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "../styles/button.js",
+                         "loc": "2:0-54",
+                         "moduleId": "./demo-src/src/components/Counter.js",
+                         "resolvedModuleId": "./demo-src/src/components/Counter.js"
+                    },
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Counter.js",
+                         "module": "./demo-src/src/components/Counter.js",
+                         "moduleName": "./demo-src/src/components/Counter.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/components/Counter.js",
+                         "resolvedModule": "./demo-src/src/components/Counter.js",
+                         "type": "harmony import specifier",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "../styles/button.js",
+                         "loc": "5:38-53",
+                         "moduleId": "./demo-src/src/components/Counter.js",
+                         "resolvedModuleId": "./demo-src/src/components/Counter.js"
+                    }
+               ],
+               "usedExports": null,
+               "providedExports": [
+                    "buttonClassName"
+               ],
+               "optimizationBailout": [],
+               "depth": 3
+          },
+          {
+               "type": "module",
+               "moduleType": "javascript/auto",
+               "layer": null,
+               "size": 12144,
+               "sizes": {
+                    "javascript": 12144
+               },
+               "built": true,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+               "name": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+               "nameForCondition": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+               "index": 4,
+               "preOrderIndex": 4,
+               "index2": 0,
+               "postOrderIndex": 0,
+               "cacheable": true,
+               "optional": false,
+               "orphan": false,
+               "issuer": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+               "issuerName": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+               "issuerPath": [
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "name": "./demo-src/src/main.js",
+                         "id": "./demo-src/src/main.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+                         "name": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+                         "id": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js"
+                    }
+               ],
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+               "issuerId": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "module": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "moduleName": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "resolvedModule": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "type": "cjs self exports reference",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": null,
+                         "loc": "17:26-46",
+                         "moduleId": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "resolvedModuleId": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js"
+                    },
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "module": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "moduleName": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "resolvedModule": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "type": "cjs self exports reference",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": null,
+                         "loc": "48:34-54",
+                         "moduleId": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "resolvedModuleId": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js"
+                    },
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "module": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "moduleName": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "resolvedModule": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "type": "cjs self exports reference",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": null,
+                         "loc": "169:10-30",
+                         "moduleId": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "resolvedModuleId": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js"
+                    },
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "module": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "moduleName": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "resolvedModule": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "type": "cjs self exports reference",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": null,
+                         "loc": "175:17-37",
+                         "moduleId": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "resolvedModuleId": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js"
+                    },
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "module": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "moduleName": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "resolvedModule": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "type": "cjs self exports reference",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": null,
+                         "loc": "295:24-44",
+                         "moduleId": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+                         "resolvedModuleId": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js"
+                    },
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+                         "module": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+                         "moduleName": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+                         "resolvedModule": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+                         "type": "cjs export require",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "./cjs/scheduler.development.js",
+                         "loc": "6:2-60",
+                         "moduleId": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+                         "resolvedModuleId": "./node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js"
+                    }
+               ],
+               "usedExports": null,
+               "providedExports": [
+                    "unstable_IdlePriority",
+                    "unstable_ImmediatePriority",
+                    "unstable_LowPriority",
+                    "unstable_NormalPriority",
+                    "unstable_Profiling",
+                    "unstable_UserBlockingPriority",
+                    "unstable_cancelCallback",
+                    "unstable_forceFrameRate",
+                    "unstable_getCurrentPriorityLevel",
+                    "unstable_next",
+                    "unstable_now",
+                    "unstable_requestPaint",
+                    "unstable_runWithPriority",
+                    "unstable_scheduleCallback",
+                    "unstable_shouldYield",
+                    "unstable_wrapCallback"
+               ],
+               "optimizationBailout": [
+                    "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 17:26-46",
+                    "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 48:34-54",
+                    "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 169:10-30",
+                    "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 175:17-37",
+                    "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 295:24-44"
+               ],
+               "depth": 4
+          },
+          {
+               "type": "module",
+               "moduleType": "javascript/auto",
+               "layer": null,
+               "size": 47219,
+               "sizes": {
+                    "javascript": 47219
+               },
+               "built": true,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+               "name": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+               "nameForCondition": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+               "index": 6,
+               "preOrderIndex": 6,
+               "index2": 2,
+               "postOrderIndex": 2,
+               "cacheable": true,
+               "optional": false,
+               "orphan": false,
+               "issuer": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+               "issuerName": "./node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+               "issuerPath": [
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "name": "./demo-src/src/main.js",
+                         "id": "./demo-src/src/main.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+                         "name": "./node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+                         "id": "./node_modules/.pnpm/react@19.2.0/node_modules/react/index.js"
+                    }
+               ],
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+               "issuerId": "./node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "module": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "moduleName": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "resolvedModule": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "type": "module decorator",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": null,
+                         "loc": "530:29-35",
+                         "moduleId": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "resolvedModuleId": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js"
+                    },
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "module": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "moduleName": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "resolvedModule": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "type": "module decorator",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": null,
+                         "loc": "530:39-45",
+                         "moduleId": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "resolvedModuleId": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js"
+                    },
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "module": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "moduleName": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "resolvedModule": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "type": "module decorator",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": null,
+                         "loc": "531:12-18",
+                         "moduleId": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js",
+                         "resolvedModuleId": "./node_modules/.pnpm/react@19.2.0/node_modules/react/cjs/react.development.js"
+                    },
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+                         "module": "./node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+                         "moduleName": "./node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+                         "resolvedModule": "./node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+                         "type": "cjs export require",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "./cjs/react.development.js",
+                         "loc": "6:2-56",
+                         "moduleId": "./node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+                         "resolvedModuleId": "./node_modules/.pnpm/react@19.2.0/node_modules/react/index.js"
+                    }
+               ],
+               "usedExports": null,
+               "providedExports": null,
+               "optimizationBailout": [],
+               "depth": 4
+          },
+          {
+               "type": "module",
+               "moduleType": "javascript/auto",
+               "layer": null,
+               "size": 17673,
+               "sizes": {
+                    "javascript": 17673
+               },
+               "built": true,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom.development.js",
+               "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom.development.js",
+               "nameForCondition": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom.development.js",
+               "index": 8,
+               "preOrderIndex": 8,
+               "index2": 4,
+               "postOrderIndex": 4,
+               "cacheable": true,
+               "optional": false,
+               "orphan": false,
+               "issuer": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+               "issuerName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+               "issuerPath": [
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/demo-src/src/main.js",
+                         "name": "./demo-src/src/main.js",
+                         "id": "./demo-src/src/main.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+                         "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js",
+                         "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom-client.development.js"
+                    },
+                    {
+                         "identifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+                         "name": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+                         "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js"
+                    }
+               ],
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/cjs/react-dom.development.js",
+               "issuerId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [
+                    {
+                         "moduleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+                         "module": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+                         "moduleName": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+                         "resolvedModuleIdentifier": "/Users/liu/Desktop/simulation-frontend/scenarios/0-read-source-and-analyze-dependencies/node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+                         "resolvedModule": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+                         "type": "cjs export require",
+                         "active": true,
+                         "explanation": "",
+                         "userRequest": "./cjs/react-dom.development.js",
+                         "loc": "37:2-60",
+                         "moduleId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js",
+                         "resolvedModuleId": "./node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/index.js"
+                    }
+               ],
+               "usedExports": null,
+               "providedExports": [
+                    "__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE",
+                    "createPortal",
+                    "flushSync",
+                    "preconnect",
+                    "prefetchDNS",
+                    "preinit",
+                    "preinitModule",
+                    "preload",
+                    "preloadModule",
+                    "requestFormReset",
+                    "unstable_batchedUpdates",
+                    "useFormState",
+                    "useFormStatus",
+                    "version"
+               ],
+               "optimizationBailout": [],
+               "depth": 4
+          },
+          {
+               "type": "module",
+               "moduleType": "runtime",
+               "layer": null,
+               "size": 308,
+               "sizes": {
+                    "runtime": 308
+               },
+               "built": false,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "webpack/runtime/define property getters",
+               "name": "webpack/runtime/define property getters",
+               "nameForCondition": null,
+               "index": null,
+               "preOrderIndex": null,
+               "index2": null,
+               "postOrderIndex": null,
+               "optional": false,
+               "orphan": false,
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [],
+               "usedExports": null,
+               "providedExports": [],
+               "optimizationBailout": [],
+               "depth": null
+          },
+          {
+               "type": "module",
+               "moduleType": "runtime",
+               "layer": null,
+               "size": 88,
+               "sizes": {
+                    "runtime": 88
+               },
+               "built": false,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "webpack/runtime/hasOwnProperty shorthand",
+               "name": "webpack/runtime/hasOwnProperty shorthand",
+               "nameForCondition": null,
+               "index": null,
+               "preOrderIndex": null,
+               "index2": null,
+               "postOrderIndex": null,
+               "optional": false,
+               "orphan": false,
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [],
+               "usedExports": null,
+               "providedExports": [],
+               "optimizationBailout": [],
+               "depth": null
+          },
+          {
+               "type": "module",
+               "moduleType": "runtime",
+               "layer": null,
+               "size": 274,
+               "sizes": {
+                    "runtime": 274
+               },
+               "built": false,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "webpack/runtime/make namespace object",
+               "name": "webpack/runtime/make namespace object",
+               "nameForCondition": null,
+               "index": null,
+               "preOrderIndex": null,
+               "index2": null,
+               "postOrderIndex": null,
+               "optional": false,
+               "orphan": false,
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [],
+               "usedExports": null,
+               "providedExports": [],
+               "optimizationBailout": [],
+               "depth": null
+          },
+          {
+               "type": "module",
+               "moduleType": "runtime",
+               "layer": null,
+               "size": 123,
+               "sizes": {
+                    "runtime": 123
+               },
+               "built": false,
+               "codeGenerated": true,
+               "buildTimeExecuted": false,
+               "cached": false,
+               "identifier": "webpack/runtime/node module decorator",
+               "name": "webpack/runtime/node module decorator",
+               "nameForCondition": null,
+               "index": null,
+               "preOrderIndex": null,
+               "index2": null,
+               "postOrderIndex": null,
+               "optional": false,
+               "orphan": false,
+               "failed": false,
+               "errors": 0,
+               "warnings": 0,
+               "id": "",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [],
+               "reasons": [],
+               "usedExports": null,
+               "providedExports": [],
+               "optimizationBailout": [],
+               "depth": null
+          }
+     ],
+     "entrypoints": {
+          "main": {
+               "name": "main",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [
+                    {
+                         "name": "bundle.js",
+                         "size": 1201730
+                    }
+               ],
+               "filteredAssets": 0,
+               "assetsSize": 1201730,
+               "auxiliaryAssets": [],
+               "filteredAuxiliaryAssets": 0,
+               "auxiliaryAssetsSize": 0,
+               "children": {},
+               "childAssets": {},
+               "isOverSizeLimit": false
+          }
+     },
+     "namedChunkGroups": {
+          "main": {
+               "name": "main",
+               "chunks": [
+                    "main"
+               ],
+               "assets": [
+                    {
+                         "name": "bundle.js",
+                         "size": 1201730
+                    }
+               ],
+               "filteredAssets": 0,
+               "assetsSize": 1201730,
+               "auxiliaryAssets": [],
+               "filteredAuxiliaryAssets": 0,
+               "auxiliaryAssetsSize": 0,
+               "children": {},
+               "childAssets": {},
+               "isOverSizeLimit": false
+          }
+     },
+     "errors": [],
+     "errorsCount": 0,
+     "warnings": [],
+     "warningsCount": 0,
+     "children": []
+}
