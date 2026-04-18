@@ -1,0 +1,15 @@
+{
+  "name": "5-parse-html-build-dom-tree",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "mini": "node mini-html-parser.js demo-input/index.html",
+    "compare": "node compare-with-parse5.js demo-input/index.html",
+    "debug": "node debug/step-by-step.js demo-input/index.html",
+    "debug:inspect": "node --inspect-brk debug/step-by-step.js demo-input/index.html"
+  },
+  "dependencies": {
+    "parse5": "7.1.2"
+  },
+  "packageManager": "pnpm@10.23.0"
+}
