@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #eef4ff url("/images/logo.77aa33ff.svg") no-repeat right 24px top 24px;
+}
+
+.page-shell {
+  padding: 24px;
+}
+
+.primary-button {
+  border: 0;
+  border-radius: 999px;
+  padding: 12px 18px;
+  color: white;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+}

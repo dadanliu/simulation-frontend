@@ -6,8 +6,15 @@
     "mini": "node delivery-modes-report.js demo-dist",
     "serve:dev": "node delivery-preview-server.js dev demo-dist 4301",
     "serve:node": "node delivery-preview-server.js node demo-dist 4302",
-    "serve:nginx": "node delivery-preview-server.js nginx demo-dist 4303",
-    "serve:cdn": "node delivery-preview-server.js cdn demo-dist 4304"
+    "serve:nginx": "node delivery-preview-server.js nginx demo-dist 5313",
+    "serve:cdn": "node delivery-preview-server.js cdn demo-dist 5314",
+    "deploy:aws": "bash deploy-to-aws.sh demo-dist",
+    "serve:app-a": "node servers/app-instance-server.js a 5311 ap-northeast-1",
+    "serve:app-b": "node servers/app-instance-server.js b 5312 ap-northeast-1",
+    "serve:origin": "node servers/origin-nginx-server.js demo-dist 5313 5311,5312",
+    "serve:edge": "node servers/cdn-edge-server.js 5314 5313",
+    "test:curl": "bash scripts/curl-test.sh",
+    "serve:all": "bash scripts/start-all.sh"
   },
   "packageManager": "pnpm@10.23.0"
 }

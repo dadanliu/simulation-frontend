@@ -1,0 +1,57 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "HTTP/1.1 · Server",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/scenarios/4-browser-initiates-request-and-receives-bytes/byte-stream-server.js",
+      "args": ["4400", "scenarios/4-browser-initiates-request-and-receives-bytes/demo-dist"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "HTTP/1.1 · Client",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/scenarios/4-browser-initiates-request-and-receives-bytes/byte-stream-client.js",
+      "args": ["4400"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "HTTP/2 · Server",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/scenarios/4-browser-initiates-request-and-receives-bytes/h2-sim/h2-server.js",
+      "args": ["4401"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "HTTP/2 · Client",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/scenarios/4-browser-initiates-request-and-receives-bytes/h2-sim/h2-client.js",
+      "args": ["4401"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ],
+  "compounds": [
+    {
+      "name": "HTTP/1.1 · Server + Client",
+      "configurations": ["HTTP/1.1 · Server", "HTTP/1.1 · Client"],
+      "stopAll": true
+    },
+    {
+      "name": "HTTP/2 · Server + Client",
+      "configurations": ["HTTP/2 · Server", "HTTP/2 · Client"],
+      "stopAll": true
+    }
+  ]
+}

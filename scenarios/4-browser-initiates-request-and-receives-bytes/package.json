@@ -1,0 +1,14 @@
+{
+  "name": "4-browser-initiates-request-and-receives-bytes",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "serve": "node byte-stream-server.js 4400 demo-dist",
+    "request": "node byte-stream-client.js 4400",
+    "mini": "node byte-stream-server.js 4400 demo-dist & sleep 0.3 && node byte-stream-client.js 4400",
+    "h2:serve": "node h2-sim/h2-server.js 4401",
+    "h2:request": "node h2-sim/h2-client.js 4401",
+    "h2:mini": "node h2-sim/h2-server.js 4401 & sleep 0.3 && node h2-sim/h2-client.js 4401"
+  },
+  "packageManager": "pnpm@10.23.0"
+}
