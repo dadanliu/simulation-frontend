@@ -1,0 +1,44 @@
+/* 最小的 CSS 输入样例，覆盖解析器里最常见的几种分支 */
+
+@import url("reset.css");
+
+:root {
+  --brand: #2e7cff;
+  --radius: 8px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  color: #222;
+  background: #fafafa;
+}
+
+.page-shell > main {
+  padding: 24px;
+  border-radius: var(--radius);
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+button.primary {
+  color: #fff;
+  background: var(--brand);
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer !important;
+}
+
+@media (max-width: 600px) {
+  .page-shell > main {
+    padding: 12px;
+  }
+  button.primary {
+    width: 100%;
+  }
+}

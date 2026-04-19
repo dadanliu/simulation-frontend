@@ -247,6 +247,48 @@ configs/
 
 ---
 
+## 九点五、提供"可 debug 的逐步模拟"入口（推荐）
+
+如果当前节点存在一个**内部循环过程**（比如解析、打包、依赖分析、渲染管线等），
+除了"一次性跑完的 `mini` 脚本"，最好再单独提供一个 `debug/step-by-step.js` 之类的逐步脚本：
+
+- 每一步都打印：**输入 token / 当前动作 / 关键数据结构（栈、指针、缓存）的前后状态**
+- 预埋 `debugger;` 语句，支持 `node --inspect-brk` + Chrome DevTools / VSCode 单步
+- 脚本也接受同一份最小输入样例（`demo-input/…`）
+
+好处：
+
+- 一次性脚本回答"最终结果是什么"，逐步脚本回答"过程里发生了什么"
+- 读者能在真实断点里观察变量，而不是光看字符串输出
+- 和 README 里的"动画级图解"（栈的 push/pop、状态机转移）能一一对应
+
+推荐脚本形态：
+
+```text
+scenario-x/
+├─ mini-xxx.js                # 一次性跑完，讲"结果"
+└─ debug/
+   └─ step-by-step.js         # 逐步慢放，讲"过程"
+```
+
+`package.json` 里对应：
+
+```json
+{
+  "scripts": {
+    "mini": "node mini-xxx.js demo-input/…",
+    "debug": "node debug/step-by-step.js demo-input/…",
+    "debug:inspect": "node --inspect-brk debug/step-by-step.js demo-input/…"
+  }
+}
+```
+
+原则：
+
+> 如果这一跳是"内部有多步的算法"，就不仅要能看到结果，还要能被单步 debug。
+
+---
+
 ## 十、命令要短，运行路径要单一
 
 每个场景最好只有一个最核心命令。
@@ -291,21 +333,27 @@ node mini-bundler.js demo-src demo-src/src/main.js
 ```text
 scenario-x/
 ├─ README.md              # 先写，讲目标/位置/图/运行方式/对比
+├─ 场景图解.md             # 关键的"动画级"图解（可选，但强烈推荐）
 ├─ package.json           # 当前场景自己的依赖和命令
-├─ mini-xxx.js            # 手写最小实现
+├─ mini-xxx.js            # 手写最小实现（一次性跑完）
+├─ compare-with-xxx.js    # 与主流方案并排对比（可选）
+├─ debug/
+│  └─ step-by-step.js     # 逐步模拟，支持 --inspect-brk 断点（若适用）
 └─ demo-input/            # 最小输入样例
 ```
 
 README 结构推荐：
 
 1. 目标
-2. 目录结构
-3. 在线性链路中的位置
+2. 在线性链路中的位置
+3. 目录结构
 4. Mermaid 图
 5. 手写最小实现做了什么
-6. 与流行方案对比
-7. 怎么运行
-8. 一句结论
+6. 可 debug 的真实场景模拟（如适用）
+7. 与流行方案对比
+8. 怎么运行
+9. 能回答的四个问题
+10. 一句结论
 
 ---
 

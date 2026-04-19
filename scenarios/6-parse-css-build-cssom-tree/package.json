@@ -1,0 +1,15 @@
+{
+  "name": "6-parse-css-build-cssom-tree",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "mini": "node mini-css-parser.js demo-input/app.css",
+    "compare": "node compare-with-postcss.js demo-input/app.css",
+    "debug": "node debug/step-by-step.js demo-input/app.css",
+    "debug:inspect": "node --inspect-brk debug/step-by-step.js demo-input/app.css"
+  },
+  "dependencies": {
+    "postcss": "8.4.47"
+  },
+  "packageManager": "pnpm@10.23.0"
+}
