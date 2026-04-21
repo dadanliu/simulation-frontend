@@ -21,6 +21,10 @@
 - `1-compile-framework-syntax-to-browser-javascript/`
 - `2-process-css-images-and-font-assets/`
 - `3-serve-files-via-dev-server-node-nginx-cdn/`
+- `4-browser-initiates-request-and-receives-bytes/`
+- `5-parse-html-build-dom-tree/`
+- `6-parse-css-build-cssom-tree/`
+- `7-load-and-execute-javascript-concurrently/`
 - `build-emits-static-html/`
 - `build-emits-runtime-artifacts/`
 - `request-generates-html-on-server/`
